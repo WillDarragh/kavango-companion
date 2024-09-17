@@ -1,0 +1,18 @@
+components:
+- layout_properties: {grid_position: 'XMLSQT,HWTBSE'}
+  name: player_name
+  properties: {placeholder: Player X}
+  type: TextBox
+- data_bindings: []
+  layout_properties: {full_width_row: false, grid_position: 'XMLSQT,UZEZHN'}
+  name: board_color
+  properties: {border: 1px solid, font_size: 28, text: ''}
+  type: Label
+- layout_properties: {grid_position: 'XMLSQT,AKDWYZ'}
+  name: pass_hand
+  properties: {}
+  type: Label
+container:
+  properties: {wrap_on: never}
+  type: ColumnPanel
+is_package: true

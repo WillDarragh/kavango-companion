@@ -6,7 +6,7 @@ unique_ids:
   forms:
     Main: 3WBXTGZTUKYBZYP4WKTGEKHGYEGHJXXS
     Main.Randomizer: '1726592399217273515778788.6684'
-    Main.Randomizer.PlayerTemplate: '1726591659667220349625852.39127'
+    Main.Randomizer.Player: '1726591659667220349625852.39127'
   modules: {}
   scripts: {}
   server_modules: {}

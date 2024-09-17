@@ -1,8 +1,8 @@
-from ._anvil_designer import PlayerTemplateTemplate
+from ._anvil_designer import PlayerTemplate
 from anvil import *
 
 
-class PlayerTemplate(PlayerTemplateTemplate):
+class Player(PlayerTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
@@ -11,3 +11,4 @@ class PlayerTemplate(PlayerTemplateTemplate):
     self.player_name.text = self.item[0]
     self.board_color.background = self.item[1]
     self.pass_hand.text = self.item[2]
+

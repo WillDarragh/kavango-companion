@@ -20,7 +20,7 @@ components:
   type: ColumnPanel
 - layout_properties: {grid_position: 'KDNNSP,WUVAXA'}
   name: players_repeating_panel
-  properties: {item_template: Main.Randomizer.PlayerTemplate}
+  properties: {item_template: Main.Randomizer.Player}
   type: RepeatingPanel
 - components:
   - layout_properties: {grid_position: 'VLMJMW,BTMMEP'}
@@ -44,7 +44,7 @@ components:
   - event_bindings: {click: remove_player_button_click}
     layout_properties: {grid_position: 'AYWHAS,SERYDT'}
     name: remove_player_button
-    properties: {role: outlined-button, text: Remove Player}
+    properties: {background: lightgrey, role: outlined-button, text: Remove Player}
     type: Button
   layout_properties: {grid_position: 'LVTXPV,LXIMHO'}
   name: column_panel_3

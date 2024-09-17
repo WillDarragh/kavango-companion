@@ -5,11 +5,11 @@ from random import choice, shuffle, randint
 
 class Randomizer(RandomizerTemplate):
 
-  ORANGE = '#F5D1B6'
-  YELLOW = '#E7DDB4'
-  GREEN = '#ABCCAD'
-  BLUE = '#C8CFDE'
-  PURPLE = '#B78FBE'
+  ORANGE = '#F8A04F'
+  YELLOW = '#F2E687'
+  GREEN = '#64C88C'
+  BLUE = '#6CABDF'
+  PURPLE = '#CF97CD'
 
   PASS_HANDS = 'ABCDE'
   
@@ -32,7 +32,7 @@ class Randomizer(RandomizerTemplate):
     if num_players < 5:
       new_player = [f'Player {num_players+1}', 'black', 'X']
       self.players.append(new_player)
-      self.remove_player_button.background = 'white'
+      self.remove_player_button.background = app.theme_colors['Primary Container']
       if num_players == 4:
         self.add_player_button.background = 'lightgrey'
     self.update_players()
@@ -42,7 +42,7 @@ class Randomizer(RandomizerTemplate):
     num_players = len(self.players)
     if num_players > 2:
       self.players.pop(-1)
-      self.add_player_button.background = 'white'
+      self.add_player_button.background = app.theme_colors['Primary Container']
       if num_players == 3:
         self.remove_player_button.background = 'lightgrey'
     self.update_players()

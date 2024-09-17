@@ -29,7 +29,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'VLMJMW,ORJAQM'}
     name: first_sanctuary_pick
-    properties: {}
+    properties: {bold: true}
     type: Label
   layout_properties: {grid_position: 'TXZVRE,OXZLNG'}
   name: column_panel_2
@@ -39,12 +39,12 @@ components:
   - event_bindings: {click: add_player_button_click}
     layout_properties: {grid_position: 'AYWHAS,AXUYJT'}
     name: add_player_button
-    properties: {role: outlined-button, text: Add Player}
+    properties: {background: 'theme:Primary Container', foreground: 'theme:On Primary Container', role: outlined-button, text: Add Player}
     type: Button
   - event_bindings: {click: remove_player_button_click}
     layout_properties: {grid_position: 'AYWHAS,SERYDT'}
     name: remove_player_button
-    properties: {background: lightgrey, role: outlined-button, text: Remove Player}
+    properties: {background: lightgrey, foreground: 'theme:On Primary Container', role: outlined-button, text: Remove Player}
     type: Button
   layout_properties: {grid_position: 'LVTXPV,LXIMHO'}
   name: column_panel_3
@@ -54,7 +54,7 @@ components:
   - event_bindings: {click: randomize_button_click}
     layout_properties: {grid_position: 'YWTNZC,GSHRZZ'}
     name: randomize_button
-    properties: {role: outlined-button, text: Randomize}
+    properties: {background: 'theme:Primary Container', foreground: 'theme:On Primary Container', role: outlined-button, text: Randomize}
     type: Button
   layout_properties: {grid_position: 'QIBHTM,ILYWEM'}
   name: column_panel_4

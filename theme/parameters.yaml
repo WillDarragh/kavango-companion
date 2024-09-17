@@ -1,20 +1,20 @@
 color_scheme:
   colors:
-  - {color: '#6750A4', name: Primary}
-  - {color: '#EADDFF', name: Primary Container}
-  - {color: '#FFFFFF', name: On Primary}
-  - {color: '#21005E', name: On Primary Container}
-  - {color: '#625B71', name: Secondary}
-  - {color: '#E8DEF8', name: Secondary Container}
-  - {color: '#FFFFFF', name: On Secondary}
-  - {color: '#1E192B', name: On Secondary Container}
-  - {color: '#7D5260', name: Tertiary}
-  - {color: '#FFD8E4', name: Tertiary Container}
-  - {color: '#FFFFFF', name: On Tertiary}
-  - {color: '#370B1E', name: On Tertiary Container}
-  - {color: '#B3261E', name: Error}
-  - {color: '#FFFBFE', name: Background}
-  - {color: '#FFFBFE', name: Surface}
+  - {color: '#005c45', name: Primary}
+  - {color: '#208367', name: Primary Container}
+  - {color: '#ffffff', name: On Primary}
+  - {color: '#ffffff', name: On Primary Container}
+  - {color: '#8f4e00', name: Secondary}
+  - {color: '#ffaa5e', name: Secondary Container}
+  - {color: '#ffffff', name: On Secondary}
+  - {color: '#4b2600', name: On Secondary Container}
+  - {color: '#745185', name: Tertiary}
+  - {color: '#c49cd5', name: Tertiary Container}
+  - {color: '#ffffff', name: On Tertiary}
+  - {color: '#301041', name: On Tertiary Container}
+  - {color: '#ba1a1a', name: Error}
+  - {color: '#CFC095', name: Background}
+  - {color: '#CFC095', name: Surface}
   - {color: '#1C1B1F', name: On Background}
   - {color: '#1C1B1F', name: On Surface}
   - {color: '#E7E0EC', name: Surface Variant}

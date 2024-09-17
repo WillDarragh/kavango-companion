@@ -1,6 +1,6 @@
 allow_embedding: false
 dependencies: []
-metadata: {description: The expert conservationist's favorite app!, title: Kavango Companion}
+metadata: {description: The expert conservationist's favorite app!, logo_img: 'asset:logo.png', title: Kavango Companion}
 name: Kavango Companion
 package_name: Kavango_Companion
 renamed: true
@@ -13,4 +13,5 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/tables.yml
+startup: null
 startup_form: Form1

@@ -10,8 +10,13 @@ class Player(PlayerTemplate):
     self.player_name.placeholder = self.item[0]
     self.board_color.background = self.item[1]
     self.pass_hand.text = self.item[2]
+    
+    def error_handler(err):
+      print('There is a known error that happens on some mobile web browsers')
 
+    set_default_error_handling(error_handler)
+    
+  
   def player_name_lost_focus(self, **event_args):
     """This method is called when the TextBox loses focus"""
     self.item[0] = self.player_name.text
-

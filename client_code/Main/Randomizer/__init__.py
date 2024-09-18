@@ -11,7 +11,7 @@ class Randomizer(RandomizerTemplate):
   BLUE = '#6CABDF'
   PURPLE = '#CF97CD'
 
-  PASS_HANDS = 'ABCDE'
+  PASS_HANDS = '12345'
   
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.

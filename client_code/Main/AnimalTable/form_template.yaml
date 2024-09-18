@@ -1,0 +1,11 @@
+components:
+- layout_properties: {grid_position: 'EOOOTD,FJJUEL'}
+  name: label_1
+  properties: {text: The Animal totals shown on the table in the Kickstarter edition of the game are incorrect. The correct table is below.}
+  type: Label
+- layout_properties: {grid_position: 'GVFZIC,BWTQAL'}
+  name: image_1
+  properties: {display_mode: fill_width, source: _/theme/corrected_animal_table.png}
+  type: Image
+container: {type: ColumnPanel}
+is_package: true

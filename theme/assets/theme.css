@@ -179,6 +179,7 @@ color: %color:On Primary Container%;
 /*   flex: 0 0;
   flex-basis: auto;
   flex-basis: content; */
+  max-height: 30px;
 }
 
 .nav-holder {

@@ -1,0 +1,23 @@
+components:
+- layout_properties: {grid_position: 'PSVLOO,MTGVJT'}
+  name: label_1
+  properties: {text: This webpage is actually a sepcial type of web application called a Progressive Web App (PWA).}
+  type: Label
+- layout_properties: {grid_position: 'HAAVQP,MLZQQC'}
+  name: label_2
+  properties: {text: PWA's can be installed on your phone similar to an app you would download from the app store.}
+  type: Label
+- layout_properties: {grid_position: 'IIWXNJ,PGFCMT'}
+  name: label_3
+  properties: {text: 'To install, use your web browser to add this webpage to your home screeen.'}
+  type: Label
+- layout_properties: {grid_position: 'MQNQVF,CHOCDL'}
+  name: label_4
+  properties: {text: 'For full insturctions, see below.'}
+  type: Label
+- layout_properties: {grid_position: 'HUYWUV,SXXLSF'}
+  name: link_1
+  properties: {text: PWA Installation Instructions, url: 'https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/'}
+  type: Link
+container: {type: ColumnPanel}
+is_package: true

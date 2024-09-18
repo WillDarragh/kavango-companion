@@ -12,10 +12,6 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
-- layout_properties: {slot: title}
-  name: title
-  properties: {bold: true, foreground: 'theme:Primary', text: Kavango Companion}
-  type: Label
 - components:
   - data_bindings:
     - {code: '', property: url, writeback: false}
@@ -49,6 +45,11 @@ components:
   name: column_panel_1
   properties: {}
   type: ColumnPanel
+- event_bindings: {click: title_link_click}
+  layout_properties: {slot: title}
+  name: title_link
+  properties: {bold: true, foreground: 'theme:Primary', text: Kavango Companion}
+  type: Link
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate

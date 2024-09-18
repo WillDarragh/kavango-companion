@@ -42,3 +42,9 @@ class Main(MainTemplate):
     self.content_panel.clear()
     scrollTo(0, 0)
     self.content_panel.add_component(About())
+
+  def title_link_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.content_panel.clear()
+    scrollTo(0, 0)
+    self.content_panel.add_component(Randomizer())

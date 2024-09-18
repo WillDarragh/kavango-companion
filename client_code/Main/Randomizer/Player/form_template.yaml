@@ -1,5 +1,5 @@
 components:
-- event_bindings: {focus: player_name_focus, lost_focus: player_name_lost_focus}
+- event_bindings: {lost_focus: player_name_lost_focus}
   layout_properties: {grid_position: 'XMLSQT,HWTBSE'}
   name: player_name
   properties: {placeholder: ''}

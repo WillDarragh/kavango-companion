@@ -7,5 +7,9 @@ components:
   name: label_2
   properties: {text: Special thanks to Matt and Zara for making such an amazing game!}
   type: Label
+- layout_properties: {grid_position: 'LELZDW,MDAPEI'}
+  name: label_3
+  properties: {text: Dedicated to all my friends in Botswana who made my time there incredible.}
+  type: Label
 container: {type: ColumnPanel}
 is_package: true
